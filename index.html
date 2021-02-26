@@ -20,7 +20,14 @@
   </head>
   <body>
     <header>
-      <h1>DK's Todo List</h1>
+      <form class="js-form form">
+        <input
+          type="text"
+          placeholder="Write Your To Do List Name"
+          class="js-form__input"
+        />
+      </form>
+      <h1 class="js-greetings greetings"></h1>
     </header>
     <form>
       <input type="text" class="todo-input" />
@@ -38,7 +45,7 @@
     <div class="todo-container">
       <ul class="todo-list"></ul>
     </div>
-
+    <script src="gretting.js"></script>
     <script src="to.do.js"></script>
   </body>
 </html>

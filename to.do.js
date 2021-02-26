@@ -50,7 +50,6 @@ function deleteCheck(e) {
       todo.remove();
     });
   }
-
   //CHECK MARK
   if (item.classList[0] === "complete-btn") {
     const todo = item.parentElement;
