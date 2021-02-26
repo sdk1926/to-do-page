@@ -13,8 +13,8 @@ body {
 
 header {
   font-size: 1rem;
-  margin-top: 10vh;
 }
+
 .form,
 .greetings {
   display: none;
@@ -29,7 +29,7 @@ h1 {
 }
 
 header,
-form {
+.todo-form {
   min-height: 20vh;
   display: flex;
   justify-content: center;
